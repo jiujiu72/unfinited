@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pygame; print\\(f'Pygame {pygame.ver} OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from game import Game; print\\('All imports OK'\\)\")",
+      "Bash(rm -f highscores.db)"
+    ]
+  }
+}
